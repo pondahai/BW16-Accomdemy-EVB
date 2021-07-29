@@ -49,23 +49,23 @@ $EndComp
 $Comp
 L Connector:Conn_01x08_Male J3
 U 1 1 6101F91D
-P 3300 2700
-F 0 "J3" H 2950 3200 50  0000 C CNN
-F 1 "Conn_01x08_Male" H 3100 3100 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x08_P2.00mm_Vertical" H 3300 2700 50  0001 C CNN
-F 3 "~" H 3300 2700 50  0001 C CNN
-	1    3300 2700
+P 3000 2700
+F 0 "J3" H 2650 3200 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 2800 3100 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x08_P2.00mm_Vertical" H 3000 2700 50  0001 C CNN
+F 3 "~" H 3000 2700 50  0001 C CNN
+	1    3000 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x08_Male J4
 U 1 1 6102068F
-P 6450 2800
-F 0 "J4" H 6400 2150 50  0000 R CNN
-F 1 "Conn_01x08_Male" H 6400 2250 50  0000 R CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x08_P2.00mm_Vertical" H 6450 2800 50  0001 C CNN
-F 3 "~" H 6450 2800 50  0001 C CNN
-	1    6450 2800
+P 6650 2800
+F 0 "J4" H 6600 2150 50  0000 R CNN
+F 1 "Conn_01x08_Male" H 6600 2250 50  0000 R CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x08_P2.00mm_Vertical" H 6650 2800 50  0001 C CNN
+F 3 "~" H 6650 2800 50  0001 C CNN
+	1    6650 2800
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -196,23 +196,12 @@ $EndComp
 $Comp
 L Switch:SW_Push SW1
 U 1 1 6103FA52
-P 6200 3650
-F 0 "SW1" H 6200 3935 50  0000 C CNN
-F 1 "RESET" H 6200 3844 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 6200 3850 50  0001 C CNN
-F 3 "~" H 6200 3850 50  0001 C CNN
-	1    6200 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW2
-U 1 1 61040296
-P 6200 4150
-F 0 "SW2" H 6200 4435 50  0000 C CNN
-F 1 "BURN" H 6200 4344 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 6200 4350 50  0001 C CNN
-F 3 "~" H 6200 4350 50  0001 C CNN
-	1    6200 4150
+P 6800 3850
+F 0 "SW1" H 6800 4135 50  0000 C CNN
+F 1 "RESET" H 6800 4044 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 6800 4050 50  0001 C CNN
+F 3 "~" H 6800 4050 50  0001 C CNN
+	1    6800 3850
 	1    0    0    -1  
 $EndComp
 Text Label 5550 2900 0    50   ~ 0
@@ -236,7 +225,7 @@ F 1 "Conn_01x03_Male" H 8472 3023 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8500 3000 50  0001 C CNN
 F 3 "~" H 8500 3000 50  0001 C CNN
 	1    8500 3000
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	8300 3100 8100 3100
@@ -355,23 +344,23 @@ $EndComp
 $Comp
 L Device:LED_ALT D1
 U 1 1 61082F5B
-P 5350 3700
-F 0 "D1" H 5343 3917 50  0000 C CNN
-F 1 "RED" H 5343 3826 50  0000 C CNN
-F 2 "LED_THT:LED_D5.0mm_FlatTop" H 5350 3700 50  0001 C CNN
-F 3 "~" H 5350 3700 50  0001 C CNN
-	1    5350 3700
+P 5550 3850
+F 0 "D1" H 5543 4067 50  0000 C CNN
+F 1 "RED" H 5543 3976 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm_FlatTop" H 5550 3850 50  0001 C CNN
+F 3 "~" H 5550 3850 50  0001 C CNN
+	1    5550 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R3
 U 1 1 6108401D
-P 5650 3700
-F 0 "R3" H 5718 3746 50  0000 L CNN
-F 1 "220" H 5718 3655 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 5690 3690 50  0001 C CNN
-F 3 "~" H 5650 3700 50  0001 C CNN
-	1    5650 3700
+P 5700 3700
+F 0 "R3" H 5768 3746 50  0000 L CNN
+F 1 "220" H 5768 3655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 5740 3690 50  0001 C CNN
+F 3 "~" H 5700 3700 50  0001 C CNN
+	1    5700 3700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -417,23 +406,119 @@ Connection ~ 3650 3600
 $Comp
 L Device:LED_ALT D3
 U 1 1 610A8D24
-P 5350 4150
-F 0 "D3" H 5343 4367 50  0000 C CNN
-F 1 "GREEN" H 5343 4276 50  0000 C CNN
-F 2 "LED_THT:LED_D5.0mm_Clear" H 5350 4150 50  0001 C CNN
-F 3 "~" H 5350 4150 50  0001 C CNN
-	1    5350 4150
+P 5550 4700
+F 0 "D3" H 5543 4917 50  0000 C CNN
+F 1 "GREEN" H 5543 4826 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm_Clear" H 5550 4700 50  0001 C CNN
+F 3 "~" H 5550 4700 50  0001 C CNN
+	1    5550 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R4
 U 1 1 610A92B9
-P 5650 4150
-F 0 "R4" H 5718 4196 50  0000 L CNN
-F 1 "220" H 5718 4105 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 5690 4140 50  0001 C CNN
-F 3 "~" H 5650 4150 50  0001 C CNN
-	1    5650 4150
+P 5700 4550
+F 0 "R4" H 5768 4596 50  0000 L CNN
+F 1 "220" H 5768 4505 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 5740 4540 50  0001 C CNN
+F 3 "~" H 5700 4550 50  0001 C CNN
+	1    5700 4550
 	1    0    0    -1  
 $EndComp
+Text Label 5700 3550 0    50   ~ 0
+VDD33
+Wire Wire Line
+	5700 3550 5950 3550
+Wire Wire Line
+	5400 3850 5250 3850
+Text Label 5250 3850 0    50   ~ 0
+GND
+Wire Wire Line
+	5400 4700 5250 4700
+Text Label 5250 4700 0    50   ~ 0
+GND
+Wire Wire Line
+	5700 4400 5950 4400
+Text Label 5700 4400 0    50   ~ 0
+PA12
+Text Label 3550 2600 0    50   ~ 0
+EN
+Text Label 7100 3850 0    50   ~ 0
+EN
+Wire Wire Line
+	7000 3850 7200 3850
+Wire Wire Line
+	7000 4700 7200 4700
+Text Label 7050 4700 0    50   ~ 0
+PA7
+Text Label 6000 2900 0    50   ~ 0
+PA7
+Wire Wire Line
+	6600 3850 6400 3850
+Wire Wire Line
+	6600 4700 6400 4700
+Text Label 6400 3850 0    50   ~ 0
+GND
+Text Label 6400 4700 0    50   ~ 0
+GND
+$Comp
+L Switch:SW_Push SW2
+U 1 1 61040296
+P 6800 4700
+F 0 "SW2" H 6800 4985 50  0000 C CNN
+F 1 "BURN" H 6800 4894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 6800 4900 50  0001 C CNN
+F 3 "~" H 6800 4900 50  0001 C CNN
+	1    6800 4700
+	1    0    0    -1  
+$EndComp
+Text Label 5550 2600 0    50   ~ 0
+PA12
+Text Label 7400 3600 0    50   ~ 0
+VDD33
+Text Label 7800 3600 0    50   ~ 0
+GND
+Text Label 8100 3600 0    50   ~ 0
+LOG_TX
+Text Label 8450 3600 0    50   ~ 0
+LOG_RX
+Wire Wire Line
+	7400 3600 7650 3600
+Wire Wire Line
+	7650 3600 7650 3850
+Wire Wire Line
+	7650 3850 7900 3850
+Wire Wire Line
+	7800 3600 7950 3600
+Wire Wire Line
+	7950 3600 7950 3750
+Wire Wire Line
+	7950 3750 8000 3750
+Wire Wire Line
+	8000 3750 8000 3850
+Wire Wire Line
+	8350 3600 8100 3600
+Wire Wire Line
+	8100 3850 8100 3600
+Wire Wire Line
+	8700 3600 8450 3600
+Wire Wire Line
+	8450 3750 8200 3750
+Wire Wire Line
+	8450 3750 8450 3600
+Wire Wire Line
+	8200 3750 8200 3850
+NoConn ~ 8300 3850
+$Comp
+L Connector:Conn_01x06_Male J9
+U 1 1 610B8EEA
+P 8100 4050
+F 0 "J9" V 8254 3662 50  0000 R CNN
+F 1 "Conn_01x06_Male" V 8163 3662 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 8100 4050 50  0001 C CNN
+F 3 "~" H 8100 4050 50  0001 C CNN
+	1    8100 4050
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 8400 3850
 $EndSCHEMATC
