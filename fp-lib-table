@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name pcb)(type KiCad)(uri ${KIPRJMOD}/)(options "")(descr ""))
+  (lib (name bw16)(type KiCad)(uri ${KIPRJMOD}/)(options "")(descr ""))
 )
