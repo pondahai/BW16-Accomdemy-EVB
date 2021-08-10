@@ -474,16 +474,14 @@ F 3 "~" H 6800 4900 50  0001 C CNN
 $EndComp
 Text Label 5550 2600 0    50   ~ 0
 PA12
-Text Label 7400 3600 0    50   ~ 0
-VDD33
-Text Label 8400 3450 0    50   ~ 0
+Text Label 8450 3700 0    50   ~ 0
 GND
-Text Label 7850 3600 0    50   ~ 0
+Text Label 7500 3450 0    50   ~ 0
 LOG_TX
-Text Label 8000 3450 0    50   ~ 0
+Text Label 7850 3600 0    50   ~ 0
 LOG_RX
 Wire Wire Line
-	7400 3600 7650 3600
+	7150 3600 7250 3600
 Wire Wire Line
 	7650 3600 7650 3850
 Wire Wire Line
@@ -523,12 +521,35 @@ Wire Wire Line
 	8100 3850 8100 3600
 Wire Wire Line
 	8100 3600 7850 3600
-Text Label 7500 3450 0    50   ~ 0
+Text Label 7150 3600 0    50   ~ 0
 EN
 Text Label 9350 3700 0    50   ~ 0
 PA7
 Text Label 3000 3600 0    50   ~ 0
 VIN
-Text Label 8450 3700 0    50   ~ 0
+Text Label 8000 3450 0    50   ~ 0
 VIN
+NoConn ~ 8550 3450
+$Comp
+L Connector:TestPoint TP1
+U 1 1 611349C9
+P 7250 3600
+F 0 "TP1" V 7200 3650 50  0000 L CNN
+F 1 "TestPoint" V 7400 3650 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 7450 3600 50  0001 C CNN
+F 3 "~" H 7450 3600 50  0001 C CNN
+	1    7250 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 611357A3
+P 7650 3600
+F 0 "TP2" V 7700 3700 50  0000 C CNN
+F 1 "TestPoint" V 7550 3800 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 7850 3600 50  0001 C CNN
+F 3 "~" H 7850 3600 50  0001 C CNN
+	1    7650 3600
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
